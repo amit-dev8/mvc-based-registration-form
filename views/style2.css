@@ -1,0 +1,93 @@
+body {
+            background: #f4f6f9;
+            font-family: Arial, sans-serif;
+        }
+
+        .registration-wrapper {
+            padding: 40px 0;
+        }
+
+        .registration-card {
+            background: #fff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .header-image img {
+            width: 100%;
+            height: auto;
+            max-height: 320px;
+            object-fit: cover;
+        }
+
+        .form-section {
+            padding: 35px;
+        }
+
+        .main-title h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1c1c1c;
+            margin-bottom: 10px;
+        }
+
+        .sub-text {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-control {
+            height: 48px;
+            border-radius: 10px;
+            border: 1px solid #dcdcdc;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #0d6efd;
+        }
+
+        .btn-submit {
+            height: 50px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 0 40px;
+        }
+
+        .registered-link a {
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .registered-link a:hover {
+            text-decoration: underline;
+        }
+
+        .modal-content {
+            border-radius: 15px;
+        }
+
+        .modal-header {
+            border-bottom: none;
+        }
+
+        .modal-title {
+            font-weight: 700;
+        }
+
+        @media(max-width:768px) {
+            .form-section {
+                padding: 20px;
+            }
+
+            .main-title h1 {
+                font-size: 24px;
+            }
+        }
