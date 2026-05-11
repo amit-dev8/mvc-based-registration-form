@@ -1,9 +1,9 @@
 <?php
 class Database {
 	private $host = "localhost";
-	private $username = "u630071588_shackathon";
-	private $password = "Shackathon@68928";
-	private $dbname = "u630071588_shackathon";
+	private $username = "root";
+	private $password = "";
+	private $dbname = "test";
 	private $conn;
 
 	public function connect() {
